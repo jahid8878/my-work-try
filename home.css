@@ -1,0 +1,380 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  
+  *{padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+    text-decoration: none;
+	list-style-type: none;
+	outline: none;}
+	
+  body{
+    background-color: #ddd;
+	height: 100%;
+	width: 100%;
+	font-family: arial;}
+	
+ /*navBar start here*/		
+  .headerSection .navigationBar{
+	width: 100%;
+	background-color: #465064;
+	color: #fff;
+    padding: 20px 10px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	box-shadow: 1px 1px 5px  #465064;}
+  
+  .headerSection .navigationBar .text{
+    display: inline;
+    margin: 0px 10px;	
+    opacity: 0.7;
+	font-size: 14px;}
+	 
+  .headerSection .navigationBar .allIcon{
+	display: inline;
+	background-color: rgba(255,255,255,.1);
+	padding: 8px 10px;
+	font-size: 13px;
+    border-radius: 5px 0px 0px 5px;}
+	
+  .headerSection .navigationBar .linkId{
+	margin-left: 5px;
+    margin-right: 25px; }
+	
+  .headerSection .navigationBar .copyIcon{
+	background-color: rgba(255,255,255,.4);
+    padding: 5.6px 10px 7.7px 10px;
+    border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+	transition: all 0.4s;}
+	
+  .headerSection .navigationBar .copyIcon:hover{
+	background-color: #fff;
+    color: black;}
+	
+  .headerSection .navigationBar .logOut{
+	color: #fff;
+	display: inline;
+	position: absolute;
+	right: 20px;
+	top: 13px;
+	padding: 5px;
+	border: 1px solid #fff; 
+    border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.5s;}
+	
+  .headerSection .navigationBar .logOut:hover{
+	background-color: #fff;
+    color: black;}
+	
+  .headerSection .navigationBar .money a{
+	color: #fff;
+	font-size: 14px;
+	font-family: none;
+	display: inline;
+	position: absolute;
+	right: 50px;
+	top: 13px;
+	padding: 5px;
+	cursor: pointer;}
+	
+  /*navBar ends here*/
+
+  /*aside start here*/
+  .asideBar{
+	background-color: rgba(70,80,100,.8);
+	width: 17%;
+	height: 100vh;
+	color: #fff;
+	position: fixed;
+    z-index: 100;}
+	
+ .asideBar .asideDiv{
+	width: 100%;
+	align-items: center;
+	padding: 15px 10px;
+    background-color: rgba(70,80,100,.6);
+    position: relative;}
+	
+ .asideBar .barIcon{
+	position: absolute;
+	right: 0px;
+	top: 3.7px;
+	font-size: 19px;
+	padding: 10.9px 15px;
+	background-color: #465064;
+    cursor: pointer;}
+	
+  .asideBar .lists li{
+	width: 100%;
+	line-height: 45px;
+	padding-left: 25px;
+	cursor: pointer;}
+	
+  .ddd{
+	position: absolute;
+    right: 10px;
+	font-size: 10px;
+	top: 210px;}
+	
+  .dddd{
+	position: absolute;
+    right: 10px;
+	font-size: 10px;
+	top: 112px;
+	cursor: pointer;}
+	
+ .asideBar .lists li:hover{
+    background-color: rgba(70,80,100,.6);} 
+	
+  .asideBar .lists li a{
+	color: #fff;
+    font-size: 22px;}
+	
+  .asideBar .lists li a span{
+	font-size: 18px;
+	margin-left: 10px;
+	font-weight: 400;
+    font-family: 'Open Sans', sans-serif;}
+	
+  .under-div, .under-div2{
+	width: 100%;
+	position: absolute;
+	left: 0;
+    background-color: #fff;
+	color: black;
+	display: none;
+	transition: ease 1s;}
+	
+  .under-div p, .under-div2 p{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 400;
+	padding-left: 30px;}
+	
+  #pp:checked ~ .under-div{ display: block;}
+  #bb:checked ~ .under-div2{ display: block;}
+
+  .ppp, .bbb, .xxx, .hidenn{ display: none;}
+   /*aside ends here*/
+ 
+ /*content start here*/
+  .contents{
+	padding: 20px 30px;
+	height: 90vh;
+	width: 83%;
+	margin-top: 55px;
+	margin-left: 17%;
+	position: relative;}
+	
+  .bdt{
+	position: absolute;
+    right: 20px;
+	width: 80px;
+	padding: 7px 5px;
+	border: none;
+	border-radius: 5px;}
+  
+  
+  .cardContainer{
+    display: flex;
+	flex-wrap: wrap;
+	gap: 1%;
+	position: relative;
+    top: 50px;}
+	
+  .card1{
+	background-color: rgba(72,130,134,.2);
+	width: 49%;
+	padding: 25px 15px;
+	border-top: 3px solid gray;
+    border-radius: 0px 0px 5px 5px;}
+	
+  .card2{
+	background-color: rgba(95,173,86,.2);
+	width: 49%;
+	padding: 25px 15px;
+	border-top: 3px solid gray;
+    border-radius: 0px 0px 5px 5px;}
+	
+  .Commission{
+	font-size: 15px;
+    font-weight: bolder;}
+	
+  .period1{
+	margin-left: 55%;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+    opacity: 0.4;}
+	
+  .period2{
+	margin-left: 70%;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+    opacity: 0.4;}
+	
+  .hisab{
+	margin-left: 15px;
+	font-family: Noto Sans JP;
+    font-size: 23px;}
+	
+  .card3{
+	width: 49%;
+    margin-top: 15px;}
+	
+  .active-div{
+	background-color: #fff;
+	padding: 18px;
+   border-radius: 5px 5px 0px 0px;
+   position: relative;
+   box-shadow: 0px 1px 2px gray;} 
+	
+  .active-div .text-text{
+	font-size: 20px;
+	font-weight: bolder;
+	opacity: 0.7;}
+	
+  .active-div .text-text:before{
+    content: "|";
+	width: 20px;
+	height: 30px;
+	background-color: black;
+	border-radius: 20px;
+	margin-right: 5px;}
+	
+  .active-div .text-text .drowp{
+	position: absolute;
+	top: 25px;
+	right: 30px;
+	font-size: 18px;
+	opacity: 0.6;
+    cursor: pointer;}
+	
+  .active-div .text-text .drowp:hover{
+    opacity: 1;}
+	
+  .table-bok{
+	background-color: #fff;
+	width: 100%;
+    padding: 20px;
+	transition: all 1s;	
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 0px 1px 5px gray;}
+	
+  #drowpp:checked ~ .table-bok{ display: block;}
+	
+  .table-bok tr:nth-child(odd){
+  background-color: #e5e7e9;}
+	
+  .table-bok th{
+	border-top: 2px solid gray;
+	padding: 8px;
+    border-right:  #e5e7e9;}
+	
+  .table-bok td{
+	padding: 8px;
+	text-align: center;
+	font-size: 14px;
+    opacity: 0.8;}
+	
+  .fot{
+    width: 100%;
+    padding-top: 65px;
+	padding-bottom: 10px;}
+    	
+  .fot p{
+	text-align: center;
+	font-size: 12px;
+    opacity: 0.7;}
+	
+  .barIcon-top{
+	font-size: 20px;
+    background-color: #465064;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 13px 15px;
+	cursor: pointer;}
+	
+  .hidden-text{
+	background-color: rgba(255,255,255,.2);
+    border-radius: 5px;
+	color: #fff;
+	position: absolute;
+	left: 55px;
+	top: 7.5px;
+	padding: 10px;
+	font-size: 14px;
+	display: none;}
+	
+  .hidden-icon{margin-right: 5px;}
+	
+ /*content start here*/
+ 
+ /*key frame mobile start here*/
+ @media screen and (max-width: 600px) {
+  .barIcon-top{
+	display: block;}
+	
+  .headerSection .navigationBar{
+    background-color: rgba(70,80,100,.8);
+    display: flex;	
+	height: 50px;}
+	
+  .hidden-text{
+    display: block;}
+	
+  .headerSection .navigationBar .text, .allIcon .copyIcon, .asideBar{
+    display: none;}
+	
+  .allIcon{
+  display: none;}
+	
+  .contents{
+	padding: 0px 20px;
+	height: 100vh;
+	width: 100%;
+	margin-top: 65px;
+	margin-left: 0%;}
+	
+  .cardContainer{
+    display: block;
+	width: 100%;}
+	
+  .card1, .card2, .card3{
+	width: 100%;
+	padding-top: 15px;
+    margin-bottom: 10px;	}
+	
+  .period1, .period2{
+	margin-left: 45%;}
+	
+  .headerSection .navigationBar .copyIcon{
+	background-color: rgba(255,255,255,.4);
+    border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+	transition: all 0.4s;
+	display: none;}
+	
+  .headerSection .navigationBar .allIcon{
+	display: inline;
+	background-color: rgba(255,255,255,.1);
+	padding: 8px 10px;
+	font-size: 13px;
+    border-radius: 5px 0px 0px 5px;
+	display: none;}
+	
+  #Bar_icon:checked ~ .lists{ display: block;}}
+     /*key frame mobile ends here*/
+	 
+	  
+	  
